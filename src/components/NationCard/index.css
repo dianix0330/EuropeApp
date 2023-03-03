@@ -1,0 +1,47 @@
+.card__content {
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  height: 600px;
+  margin-left: 20px;
+  margin-top: 20px;
+  user-select: none;
+  width: 480px;
+}
+
+.card__name {
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  height: 50px;
+  justify-content: center;
+  padding: 20px 10px;
+  width: 100%;
+}
+
+.card__flag {
+  width: 100%;
+  height: 270px;
+}
+
+.card__nature__section {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.card__language__select {
+  font-size: 20px;
+}
+
+.card__language__list {
+  margin: 0px;
+}
+
+.card__language__list__item {
+  list-style-type: none;
+}
